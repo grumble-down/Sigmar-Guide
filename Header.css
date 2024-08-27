@@ -1,0 +1,31 @@
+/* Header.css */
+.app-header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures the header stays on top when scrolling */
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.app-nav {
+  margin-top: 10px;
+}
+
+.app-nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1rem;
+}
+
+.app-nav a:hover {
+  text-decoration: underline;
+}
